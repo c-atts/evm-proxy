@@ -1,4 +1,4 @@
-# catts-thegraph-query-proxy
+# catts-evm-proxy
 
 Runs a Cloudflare Worker that proxies requests to the [Alchemy](https://www.alchemy.com) API. The worker is written in Rust, compiled to WebAssembly, and deployed to Cloudflare's [edge infrastructure](https://www.cloudflare.com/network/).
 
