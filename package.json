@@ -1,0 +1,13 @@
+{
+  "name": "catts-evm-proxy",
+  "description": "Proxy graphql queries to The Graph API.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "npx wrangler deploy",
+    "dev": "npx wrangler dev --env dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.53.1"
+  }
+}
